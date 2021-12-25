@@ -16,17 +16,17 @@ i{
     border-bottom-right-radius: 5px;
     animation: animate 5s linear infinite;
 }
-i:nth-child(3n+1){
-background: linear-gradient(transparent ,#0ff);
-}
-i:nth-child(3n+2){
-    background: linear-gradient(transparent ,#0f0);
-}
-i:nth-child(3n+1){
-    background: linear-gradient(transparent ,#f00);
-}
 
-
+i:nth-child(3n+1){
+    background: linear-gradient(transparent ,#0ff);
+    }
+    i:nth-child(3n+2){
+        background: linear-gradient(transparent ,#0f0);
+    }
+    i:nth-child(3n+1){
+        background: linear-gradient(transparent ,#f00);
+    }
+    
 
 
 @keyframes animate {
