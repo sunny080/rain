@@ -4,27 +4,35 @@
     box-sizing: border-box;
 }
 body{
-    background: #000;
-    overflow: hidden;
-    height: 100vh;
+    overflow-x: hidden;
+    font-family: sans-serif;
+    background: rgb(17, 17, 17);
+
+}
+.header{
+    z-index: -1;
+   width: 100%;
+   position: absolute;
+   overflow: hidden;
+   height: 100vh;
 }
 i{
     position: absolute;
     height: 100px;
-    background: linear-gradient(transparent,#fff);
+    background: linear-gradient(transparent,rgba(255, 255, 255, 0.623));
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     animation: animate 5s linear infinite;
 }
 
 i:nth-child(3n+1){
-    background: linear-gradient(transparent ,#0ff);
+    background: linear-gradient(transparent ,rgba(255, 255, 255, 0.356));
     }
     i:nth-child(3n+2){
-        background: linear-gradient(transparent ,#0f0);
+        background: linear-gradient(transparent ,rgba(255, 255, 255, 0.384));
     }
     i:nth-child(3n+1){
-        background: linear-gradient(transparent ,#f00);
+        background: linear-gradient(transparent ,rgba(255, 255, 255, 0.392));
     }
     
 
@@ -36,4 +44,99 @@ i:nth-child(3n+1){
     100%{
         transform: translateY(calc(100vh + 200px));
     }
+}
+
+
+.nav-bar{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #fff;
+    height: 80px;
+    align-items: center;
+}
+.log{
+    font-size: 30px;
+
+}
+.fop{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+
+}
+.gop{
+    font-size: 19px;
+    cursor: pointer;
+}
+.iop{
+    height: 100vh;
+    
+}
+
+.center{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+}
+.text2{
+    color: #fff;
+    font-size:18px;
+
+    width: 600px;
+    line-height: 29px;
+    margin-top: 40px;
+}
+
+.heading{
+    width: 40%;
+    
+}
+.text{
+    color: #fff;
+    width: 600px;
+    font-size: 40px;
+    line-height: 50px;
+}
+.btn1{
+    width: 200px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    height: 50px;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.ritu{
+    width: 500px;
+    height: 500px;
+   
+}
+
+
+
+
+
+
+
+.cnet{
+    width: 40%;
+}
+.cover{
+    display: flex;
+    align-items: center;
+    width: 650px;
+    justify-content: center;
+    height: 650px;
+    border-radius: 50%;
+    background-color: #fff;
 }
